@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension version="3.0" type="template" client="site">
+	<name>midnight</name>
+	<description>TPL_MIDNIGHT_DESC</description>
+	<version>1.1.0</version>
+	<creationDate>April 26</creationDate>
+	<author>Andrey</author>
+	<authorEmail>xodinx@meta.ua</authorEmail>
+	<authorUrl>http://midnight.ru</authorUrl>
+	<license>TPL_MIDNIGHT_LICENSE</license>
+	<copyright>TPL_MIDNIGHT_COPY</copyright>
+	
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+	</files>
+	
+	<positions>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+	</positions>
+	
+	<language tag="ru-RU">ru-RU/ru-RU.tpl_midnight.ini</language>
+	<language tag="ru-RU">ru-RU/ru-RU.tpl_midnight.sys.ini</language>
+	
+	<language tag="en-GB">en-GB/en-GB.tpl_midnight.ini</language>
+	<language tag="en-GB">en-GB/en-GB.tpl_midnight.sys.ini</language>
+</extension>
